@@ -6,26 +6,26 @@ This document serves as the main entry point for Claude Code to access project m
 
 These files define how you should approach this project, your behavior patterns, and operational guidelines:
 
-- [Basic Behavior and Principles](.cline/rules/01_basic.mdc)
-- [Memory Usage Guidelines](.cline/rules/02_memory.mdc)
-- [Git and Version Control Guidelines](.cline/rules/03_git.mdc)
+- [Basic Behavior and Principles](.ai-agent/rules/01_basic.md)
+- [Memory Usage Guidelines](.ai-agent/rules/02_memory.md)
+- [Git and Version Control Guidelines](.ai-agent/rules/03_git.md)
 
 ## Project Memory and Context
 
 These files contain essential information about the project context, requirements, and current status:
 
-- [Project Brief](.cline/memory/projectbrief.mdc) - Core requirements and goals
-- [Product Context](.cline/memory/productContext.mdc) - Background and user experience goals
-- [Active Context](.cline/memory/activeContext.mdc) - Current focus and next steps
-- [System Patterns](.cline/memory/systemPatterns.mdc) - Architecture and technical decisions
-- [Technical Context](.cline/memory/techContext.mdc) - Technology stack and constraints
-- [Progress Status](.cline/memory/progress.mdc) - Current state and known issues
+- [Project Brief](.ai-agent/memory/projectbrief.md) - Core requirements and goals
+- [Product Context](.ai-agent/memory/productContext.md) - Background and user experience goals
+- [Active Context](.ai-agent/memory/activeContext.md) - Current focus and next steps
+- [System Patterns](.ai-agent/memory/systemPatterns.md) - Architecture and technical decisions
+- [Technical Context](.ai-agent/memory/techContext.md) - Technology stack and constraints
+- [Progress Status](.ai-agent/memory/progress.md) - Current state and known issues
 
 ## Additional Knowledge
 
 When applicable, refer to the memory bank for detailed documentation and references:
 
-- [Memory Bank](.cline/memory-bank/) - Contains specialized knowledge relevant to this project
+- [Memory Bank](.ai-agent/memory-bank/) - Contains specialized knowledge relevant to this project
 
 ## Important Notes
 

@@ -10,13 +10,13 @@ The memory files in this project serve to:
 
 ## Memory File Structure
 
-### Rules Directory (`.cline/rules/`)
+### Rules Directory (`.ai-agent/rules/`)
 Contains operational guidelines that govern your behavior and approach to the project.
 
-### Memory Directory (`.cline/memory/`)
+### Memory Directory (`.ai-agent/memory/`)
 Stores project-specific information, current status, and technical context.
 
-### Memory Bank (`.cline/memory-bank/`)
+### Memory Bank (`.ai-agent/memory-bank/`)
 Holds detailed documentation and reference information about complex features, APIs, and technologies.
 
 ## Memory Usage Workflow
