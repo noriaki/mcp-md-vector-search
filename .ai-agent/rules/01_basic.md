@@ -38,3 +38,12 @@
 - Prioritize readability and maintainability over clever solutions
 - Ensure backward compatibility unless explicitly directed otherwise
 - Consider performance implications of your implementation choices
+
+## MCP Server Usage Guidelines
+
+- **Primary Approach**: Always use MCP server tools as the primary method for operations
+- **Tool Verification**: Check for available MCP server tools at the beginning of each task
+- **Known Servers**: Always assume `git` and `github` MCP servers are available
+- **Other Servers**: Verify availability of other MCP servers at task start
+- **Fallback Approach**: Use shell commands or other alternatives only when MCP tools are unavailable or return errors
+- **Documentation**: Document which MCP tools were used for task completion

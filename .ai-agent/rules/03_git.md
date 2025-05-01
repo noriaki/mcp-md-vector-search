@@ -122,3 +122,14 @@ git push origin --delete feature/[feature-name]  # Delete remote branch
 - Use GitHub Actions for CI/CD when configured
 - Protect branches with appropriate rules
 - Use GitHub Projects for task tracking when applicable
+
+## MCP Server Integration
+
+- **Primary Tools**: Always use `mcp__git` and `mcp__github` tools for Git and GitHub operations
+- **Tool Verification**: Prior to performing Git/GitHub operations, verify MCP server availability
+- **Fallback Approach**: Only use standard Git commands when MCP tools are unavailable or return errors
+- **Example Operations**:
+  - Use `mcp__git__git_status` instead of `git status`
+  - Use `mcp__github__create_pull_request` instead of manual PR creation
+  - Use `mcp__git__git_commit` instead of `git commit`
+- **Error Handling**: If MCP tools return errors, document the issue and fall back to shell commands
