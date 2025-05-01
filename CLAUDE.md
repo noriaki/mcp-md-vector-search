@@ -6,20 +6,20 @@ This document serves as the main entry point for Claude Code to access project m
 
 These files define how you should approach this project, your behavior patterns, and operational guidelines:
 
-- [Basic Behavior and Principles](.ai-agent/rules/01_basic.mdc)
-- [Memory Usage Guidelines](.ai-agent/rules/02_memory.mdc)
-- [Git and Version Control Guidelines](.ai-agent/rules/03_git.mdc)
+- [Basic Behavior and Principles](.ai-agent/rules/01_basic.md)
+- [Memory Usage Guidelines](.ai-agent/rules/02_memory.md)
+- [Git and Version Control Guidelines](.ai-agent/rules/03_git.md)
 
 ## Project Memory and Context
 
 These files contain essential information about the project context, requirements, and current status:
 
-- [Project Brief](.ai-agent/memory/projectbrief.mdc) - Core requirements and goals
-- [Product Context](.ai-agent/memory/productContext.mdc) - Background and user experience goals
-- [Active Context](.ai-agent/memory/activeContext.mdc) - Current focus and next steps
-- [System Patterns](.ai-agent/memory/systemPatterns.mdc) - Architecture and technical decisions
-- [Technical Context](.ai-agent/memory/techContext.mdc) - Technology stack and constraints
-- [Progress Status](.ai-agent/memory/progress.mdc) - Current state and known issues
+- [Project Brief](.ai-agent/memory/projectbrief.md) - Core requirements and goals
+- [Product Context](.ai-agent/memory/productContext.md) - Background and user experience goals
+- [Active Context](.ai-agent/memory/activeContext.md) - Current focus and next steps
+- [System Patterns](.ai-agent/memory/systemPatterns.md) - Architecture and technical decisions
+- [Technical Context](.ai-agent/memory/techContext.md) - Technology stack and constraints
+- [Progress Status](.ai-agent/memory/progress.md) - Current state and known issues
 
 ## Additional Knowledge
 
